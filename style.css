@@ -1,0 +1,81 @@
+html{
+    background: black;
+}
+body{
+    background: white;
+    width: 80%;
+    color: #444;
+    margin: auto;
+    padding: 0;
+}
+header{
+    background: #ededed;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+.header_left{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header_right{
+    float: right;
+    text-align: left;
+}
+.header_right p{
+    margin: 5px;
+}
+h2, h3{
+    margin: 2px;
+}
+.contant{
+    clear: both;
+    padding: 20px 40px;
+}
+.row{
+    border-bottom: 2px solid #e6e4e4;
+    overflow: hidden;
+    clear: both;
+}
+.row:last-child {
+  border-bottom: none;
+}
+.col_left {
+  float: left;
+  width: 25%;
+} 
+.col_left h2 {
+  font-style: italic;
+}
+.col_right {
+  float: left;
+  width: 75%;
+} 
+
+.col_right .smaller {
+  margin: 0;
+  font-style: italic;
+}
+.col_right h2 {
+  margin-bottom: 2px;
+}
+
+.same_width_column {
+  width: 33%;
+  float: left;
+}
+
+input, label {
+  display: block;
+}
+form {
+  margin-top: 20px;
+}
+
+
